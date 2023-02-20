@@ -1,0 +1,105 @@
+.main-body {
+  width: 100vw;
+  height: fit-content;
+  padding: 1rem;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+.btns button {
+  font-size: 1rem;
+  border: none;
+  background-color: var(--dark);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.btns button:hover {
+  background-color: var(--light);
+}
+
+.main-content {
+  width: 100%;
+  border: 1px solid var(--dark);
+  margin-top: 1rem;
+  height: fit-content;
+}
+.main-content h2 {
+  display: inline-block;
+  border-right: 1px solid var(--dark);
+  border-bottom: 1px solid var(--dark);
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+.table-content {
+  padding: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  background-color: var(--light);
+  color: white;
+}
+th,
+td {
+  padding: 0.5rem;
+}
+table input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.retrieve-input {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.input-field {
+  display: flex;
+  gap: 2rem;
+}
+.input-field input {
+  border: 1px solid var(--dark);
+  padding: 0.5rem 1rem;
+}
+.input-field button {
+  background-color: var(--dark);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
+}
+.single-user-card {
+  display: flex;
+  border-radius: 0.25rem;
+  width: 20%;
+  box-shadow: rgba(52, 92, 174, 0.5) 0px 3px 6px,
+    rgba(52, 92, 174, 0.5) 0px 3px 6px;
+  padding: 0.5rem;
+}
+.single-card-left-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.single-card-right-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
